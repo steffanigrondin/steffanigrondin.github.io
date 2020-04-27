@@ -193,8 +193,24 @@
 							  margin-top: 8px;
 							  vertical-align: middle;
 							  width: 100%;
+								
 							}
+							.photo, .photo * {
+							  -moz-box-sizing: border-box;
+							 -webkit-box-sizing: border-box;
+							 box-sizing: border-box;
+							 }
 
+							.title {
+							    padding: 20px;
+							    background: #2c3f52;
+							    color: #ed4e6e;
+							    height:auto;
+							    position:absolute;
+							    bottom:0;
+							    left:0;
+							    right:0;
+							}
 
 							/* Responsive layout - makes a two column-layout instead of four columns */
 							@media screen and (max-width: 800px) {
@@ -226,15 +242,23 @@
 							<a target="_self", href="images/headshot_solarviewer_mia.jpg">
 							    <img src="images/headshot_solarviewer_mia.jpg" alt="Cinque Terre" >
 							  </a>
+								  <div class="title">
+        								<h3>Image Title</h3>
 							<a target="_self", href="images/wreckbeach.jpg">
 							    <img src="images/wreckbeach.jpg" alt="Cinque Terre" >
 							  </a>
+									  <div class="title">
+        								<h3>Image Title</h3>
 							<a target="_self", href="images/headshot_solarviewer_mia.jpg">
 							    <img src="images/headshot_solarviewer_mia.jpg" alt="Cinque Terre">
 							  </a>
+										  <div class="title">
+        								<h3>Image Title</h3>
 							<a target="_self", href="images/wreckbeach.jpg">
 							    <img src="images/wreckbeach.jpg" alt="Cinque Terre">
 							  </a>
+											  <div class="title">
+        								<h3>Image Title</h3>
 
 
 								</div>
